@@ -11,9 +11,16 @@
       "openFiles": []
     },
     "vscode": {
+       "settings": { 
+        "python.defaultInterpreterPath": "/home/vscode/venv/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
+        "python.linting.flake8Enabled": true
+       },
       "extensions": [
         "ms-toolsai.jupyter",
-        "ms-python.python"
+        "ms-python.python",
+        "Github.copilot"
       ]
     }
   }
